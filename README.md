@@ -10,8 +10,8 @@
 	    ICollection<AccountData> accounts = (await accountsClient.GetAccountsAsync("account", false)).Data; 
 
 ### Assets
-		var assetsClient = new AssetsClient(new HttpHandler());
-		ICollection<Asset> assets = (await assetsClient.GetAssetsAsync("account", false)).Data;
+	    var assetsClient = new AssetsClient(new HttpHandler());
+	    ICollection<Asset> assets = (await assetsClient.GetAssetsAsync("account", false)).Data;
 
 ### Burns
         var burnsClient = new BurnsClient(new HttpHandler());
