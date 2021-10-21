@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Description>A C# Wrapper for the AtomicAssets API. Usage: AtomicAssetsApiFactory.Version1.AssetsApi.Assets();</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageTags>Liquiid.io, AtomicAssets</PackageTags>
+    <Authors>Liquiid.io</Authors>
+    <Company>Liquiid.io</Company>
+    <Product>Liquiid.io</Product>
+    <PackageId>Liquiid.io.AtomicAssets</PackageId>
+    <AssemblyName>AtomicAssetsApiClient</AssemblyName>
+    <RootNamespace>AtomicAssetsApiClient</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AtomicAssetsApiClient.Core\AtomicAssetsApiClient.Core.csproj" />
+  </ItemGroup>
+
+</Project>
